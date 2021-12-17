@@ -4,6 +4,7 @@ public class SharedLibrary {
   def pipeline
   
   public SharedLibrary(pipeline) {
+    pipeline.steps.echo(pipeline.getClass())
     this.pipeline = pipeline
   }
   
