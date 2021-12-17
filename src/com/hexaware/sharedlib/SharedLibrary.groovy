@@ -8,6 +8,6 @@ public class SharedLibrary {
   }
   
   public void startBuild() {
-    steps.echo "Hello, World!"
+    steps.sh "echo 'Hello, World!'"
   }
 }
